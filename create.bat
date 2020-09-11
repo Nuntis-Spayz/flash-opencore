@@ -5,10 +5,10 @@ REM sabers.amazer.uk -------- (C)MMXX AMAZER-PROJECTS
 
 REM VERSION NUMBER
 REM -------------------------------------
-set FWVERSION=1.9.16-20200903
+set FWVERSION=1.9.15-20200820
 
 set FWCOPYRIGHT=(C)MMXX %date%
-SET FWDESCRIPTION=Open-Core Flasher (OpenCore.1.9.16_20200903_beta_uploader)
+SET FWDESCRIPTION=Open-Core Flasher (OpenCore.1.9.15_20200820.hex)
 set FWCOMPANY=GPL 3.0
 set FWWEBSITE=http://sabers.amazer.uk -- v.%FWVERSION% -- %date% (%time%)
 
