@@ -1,16 +1,16 @@
 REM -------------------------------------------------
 REM Create Flash-OpenCore.exe
-REM ------------------------------------ v.2020-09-11
-REM sabers.amazer.uk -------- (C)MMXX AMAZER-PROJECTS
+REM ------------------------------------ v.2020-09-21
+REM lamadiluce.it --------- (C)MMXX Polaris Open Core
 
 REM VERSION NUMBER
 REM -------------------------------------
-set FWVERSION=1.9.15-20200820
+set FWVERSION=1.9.17
 
 set FWCOPYRIGHT=(C)MMXX %date%
-SET FWDESCRIPTION=Open-Core Flasher (OpenCore.1.9.15_20200820.hex)
+SET FWDESCRIPTION=Open-Core Flasher (OpenCore.%FWVERSION%.hex)
 set FWCOMPANY=GPL 3.0
-set FWWEBSITE=http://sabers.amazer.uk -- v.%FWVERSION% -- %date% (%time%)
+set FWWEBSITE=http://lamadiluce.it -- v.%FWVERSION% -- %date% (%time%)
 
 del /F /Q Installer.7z
 del /F /Q Flash-OpenCore.%FWVERSION%.exe
@@ -27,4 +27,6 @@ sleep 2
 
 ren Flash-OpenCore.exe Flash-OpenCore.%FWVERSION%.exe
 
+del /F /Q Installer.7z
+ 
 exit
