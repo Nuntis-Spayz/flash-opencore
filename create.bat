@@ -16,7 +16,7 @@ del /F /Q Installer.7z
 del /F /Q Flash-OpenCore.%FWVERSION%.exe
 sleep 2
 
-7zr a -r -y -t7z -mx=9 Installer.7z .\files\*.*
+7zr a -r -y -t7z -mx=9 Installer.7z .\files\*.hex .\files\*.exe .\files\*.cmd 
 sleep 2
 
 copy /b 7zS.sfx + config.txt + Installer.7z Flash-OpenCore.exe
