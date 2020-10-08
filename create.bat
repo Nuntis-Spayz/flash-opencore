@@ -1,16 +1,16 @@
 REM -------------------------------------------------
 REM Create Flash-OpenCore.exe
-REM ------------------------------------ v.2020-09-21
+REM ------------------------------------ v.2020-10-08
 REM lamadiluce.it --------- (C)MMXX Polaris Open Core
 
 REM VERSION NUMBER
 REM -------------------------------------
-set FWVERSION=1.9.17
+set FWVERSION=1.9.17-20200930
 
 set FWCOPYRIGHT=(C)MMXX %date%
-SET FWDESCRIPTION=Open-Core Flasher (OpenCore.%FWVERSION%.hex)
+SET FWDESCRIPTION=Open-Core Flasher (OpenCore.%FWVERSION%.hex) -- %date% (%time%)
 set FWCOMPANY=GPL 3.0
-set FWWEBSITE=http://lamadiluce.it -- v.%FWVERSION% -- %date% (%time%)
+set FWWEBSITE=http://lamadiluce.it
 
 del /F /Q Installer.7z
 del /F /Q Flash-OpenCore.%FWVERSION%.exe
