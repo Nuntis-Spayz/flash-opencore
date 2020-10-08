@@ -1,28 +1,34 @@
 #!/bin/bash
+version=1.9.17_20200930
+
 clear
 echo ""
-echo --------------------------------------
-echo OpenCore Saber Updater
-echo --------------------------------------
-Echo "$(dirname "$BASH_SOURCE")"
+echo "--------------------------------------------"
+echo " OpenCore Saber Updater - v.$version"
+echo "--------------------------------------------"
+echo "$(dirname "$BASH_SOURCE")"
 cd "$(dirname "$BASH_SOURCE")"
 echo ""
-echo --------------------------------------
+echo "--------------------------------------------"
+echo ""
 if [ $# -eq 0 ]
 then
-echo Uploading OpenCore.1.9.17_20200930.hex
-echo --------------------------------------
+echo "Uploading OpenCore.$version.hex"
+echo "--------------------------------------------"
 echo ""
-./tycmd upload OpenCore.1.9.17_20200930.hex
+./tycmd upload OpenCore.$version.hex
 
 else
 echo Uploading $1
-echo --------------------------------------
+echo "--------------------------------------------"
 echo ""
 ./tycmd upload $1
 
 fi
 
-read -n 1 -r -s -p $'Press enter to continue...\n'
-osascript -e 'tell application "Terminal" to quit'
-exit
+echo ""
+echo "-------------------------------"
+echo "Press  cmd-W  to close Terminal"
+echo "-------------------------------"
+echo ""    
+exit 0
