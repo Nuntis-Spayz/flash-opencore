@@ -25,7 +25,7 @@ sleep 2
 verpatch.exe Flash-OpenCore.exe "%FWVERSION%" /pv "%FWVERSION%" /s ProductName "Open-Core Saber Flasher" /s CompanyName "%FWCOMPANY%"  /s LegalCopyright "%FWCOPYRIGHT%" /s FileDescription "%FWDESCRIPTION%" /sc "%FWWEBSITE%" /va
 sleep 2
 
-ren Flash-OpenCore.exe Flash-OpenCore.%FWVERSION%.exe
+ren Flash-OpenCore.exe Flash-OpenCore.%FWVERSION%-B.exe
 
 del /F /Q Installer.7z
  
