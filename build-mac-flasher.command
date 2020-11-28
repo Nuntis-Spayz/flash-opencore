@@ -23,8 +23,11 @@ cp files/OpenCore.$version.hex $dmgfolder/
 chmod +x $dmgfolder/tycmd
 chmod +x $dmgfolder/*.command
 
-rm -f *.dmg
+rm -f OpenCoreUpdater-macos-$version.dmg
+rm -f tmp.dmg
+
 hdiutil create tmp.dmg -ov -volname "OpenCoreUpdater $version" -fs HFS+ -srcfolder "./$dmgfolder/" 
 hdiutil convert tmp.dmg -format UDZO -o OpenCoreUpdater-macos-$version.dmg
+
 rm -dfr $dmgfolder
 rm -f tmp.dmg
