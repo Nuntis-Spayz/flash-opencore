@@ -5,7 +5,7 @@ REM lamadiluce.it --------- (C)MMXX Polaris Open Core
 
 REM VERSION NUMBER
 REM -------------------------------------
-set FWVERSION=1.9.17-20200930
+set FWVERSION=1.9.18_20201212_beta
 
 set FWCOPYRIGHT=(C)MMXX %date%
 SET FWDESCRIPTION=Open-Core Flasher (OpenCore.%FWVERSION%.hex) -- %date% (%time%)
@@ -25,7 +25,7 @@ sleep 2
 verpatch.exe Flash-OpenCore.exe "%FWVERSION%" /pv "%FWVERSION%" /s ProductName "Open-Core Saber Flasher" /s CompanyName "%FWCOMPANY%"  /s LegalCopyright "%FWCOPYRIGHT%" /s FileDescription "%FWDESCRIPTION%" /sc "%FWWEBSITE%" /va
 sleep 2
 
-ren Flash-OpenCore.exe Flash-OpenCore.%FWVERSION%-B.exe
+ren Flash-OpenCore.exe Flash-OpenCore.%FWVERSION%.exe
 
 del /F /Q Installer.7z
  
