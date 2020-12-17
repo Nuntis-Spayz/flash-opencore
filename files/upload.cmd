@@ -35,10 +35,10 @@ pause
 exit
 
 :default
-@echo Uploading OpenCore.1.9.18_20201212_beta.hex
+@echo Uploading OpenCore.2.0.0_20201217_beta.hex
 @echo --------------------------------------
 @echo.
-tycmd upload OpenCore.1.9.18_20201212_beta.hex
+tycmd upload OpenCore.2.0.0_20201217_beta.hex
 
 :no
 pause

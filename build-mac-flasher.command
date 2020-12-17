@@ -1,6 +1,6 @@
 #!/bin/sh
 # Script Settings
-version=1.9.18_20201212_beta
+version=2.0.0_20201217_beta
 
 appname=OpenCoreFlasher
 dmgfolder=OpenCoreFlasher-dmg
