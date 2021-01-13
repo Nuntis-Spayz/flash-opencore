@@ -3,7 +3,8 @@
 ## Builds a Self-Extracting Formware Flasher (Windows or Mac OS)
 
 This archive builds a self-extracting firmware flasher for Open Core 
-Sabers (using teensy technology)
+Sabers (using teensy technology), see https://github.com/LamaDiLuce/polaris-opencore 
+for the firmware which this software is primarily designed to work with.
 
 ### Windows
   1) Place the .hex file in the files folder
@@ -17,4 +18,4 @@ Sabers (using teensy technology)
   2) edit the upload-macos.command in the files folder to reference the named .hex file
   3) edit build-mac-flasher.command to reference the named hex file or version number
   4) run the build-mac-flasher.command to builf the Mac OS DMG redistributable
-     if the command file does not run you will need to set the executable p[ermission chmod +x *.command in terminal
+     if the command file does not run you will need to set the executable permission chmod +x *.command in terminal
