@@ -1,5 +1,5 @@
 ;!@Install@!UTF-8!
 Title="Open-Core Saber Flasher"
-BeginPrompt="Do you want to Flash the Open-Core Saber Firmware (OpenCore.2.0.0_20201217_beta.hex)?"
+BeginPrompt="Do you want to Flash the Open-Core Saber Firmware (OpenCore.2.0.2_20210512.hex)?"
 RunProgram="upload.cmd"
 ;!@InstallEnd@!
