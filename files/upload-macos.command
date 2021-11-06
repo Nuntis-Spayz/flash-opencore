@@ -1,6 +1,5 @@
 #!/bin/bash
-version=2.0.2_20210512
-
+version=2.1.0_20211102
 clear
 echo "--------------------------------------------"
 echo " OpenCore Saber Updater - v.$version"

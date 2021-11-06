@@ -5,7 +5,7 @@ REM lamadiluce.it --------- (C)MMXX Polaris Open Core
 
 REM VERSION NUMBER
 REM -------------------------------------
-set FWVERSION=2.0.2_20210512
+set FWVERSION=2.1.0_20211102
 
 set FWCOPYRIGHT=(C)MMXXI %date%
 SET FWDESCRIPTION=Open-Core Flasher (OpenCore.%FWVERSION%.hex) -- %date% (%time%)
