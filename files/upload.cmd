@@ -1,6 +1,6 @@
 @pushd %~dp0
 @cd %~dp0
-set FNAME=OpenCore.2.2.4_20211210.hex
+set FNAME=OpenCore.2.2.7_20220916.hex
 
 @echo.
 @echo --------------------------------------
